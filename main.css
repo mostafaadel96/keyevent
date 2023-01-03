@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 30px;
+}
+.container .input {
+  margin-left: 20px;
+}
+.container .output {
+  margin-right: 20px;
+}
+.container .input,
+.container .output {
+  height: 500px;
+}
+.container .input textarea {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  font-size: 25px;
+}
+.container .output .result {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+.info {
+  text-align: center;
+  margin-top: 70px;
+}
+.info h2 {
+  font-size: 32px;
+}
+.info .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info .btns button {
+  padding: 8px 18px;
+  background-color: #8a2be2;
+  border: 1px solid #8a2be2;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+.button-1 {
+  font-family: "Lobster";
+}
+.button-2 {
+  font-family: "Wallpoet";
+}
+.button-3 {
+  font-family: "Shadows Into Light";
+}
+.button-4 {
+  font-family: "ZCOOL KuaiLe", sans-serif;
+}
